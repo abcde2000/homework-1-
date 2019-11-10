@@ -15,5 +15,5 @@ int main(void)
     }else{
         printf("A\n");
     }
-    return 0
+    return 0;
 }
