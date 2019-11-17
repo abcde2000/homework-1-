@@ -8,6 +8,6 @@ for(i=1;i<=5;i++)
     a=a*i;
     sum=sum+a;
 }
-printf("1!+2!+3!+4!+5！=%d\n",1!+2!+3!+4!+5！);
+printf("sum=%d\n",sum);
 return 0;
 }
