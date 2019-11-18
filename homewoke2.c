@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int mian(void)
+int main(void)
 {
 int i,a=1,sum=0;
 for(i=1;i<=5;i++)
