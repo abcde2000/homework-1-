@@ -8,12 +8,11 @@ int main(void)
 
     for(i=1;i<=n;i++)
 {
-    term*=i;
-    sum+=1.0/term;
+    term=term/i;
+    sum+=term;
 }
 sum+=1;
 printf("sum = %.5lf\n",sum);
 
 return 0;
 }
-
